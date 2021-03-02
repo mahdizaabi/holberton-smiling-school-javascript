@@ -356,6 +356,21 @@ h4.card-title {
   #latest-videos-lg {
     display: block !important;
   }
+
+  .videocarousel .carousel-inner .carousel-item-right.active,
+  .videocarousel .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .videocarousel .carousel-inner .carousel-item-left.active, 
+  .videocarousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+  .videocarousel .carousel-inner .carousel-item-right,
+.videocarousel .carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
+
 }
 
 /* Free Membership Section
@@ -561,5 +576,28 @@ footer p {
   opacity: 0.35;
   font-size: 12px;
   line-height: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .videocarousel .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .videocarousel .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.videocarousel .carousel-inner .carousel-item.active,
+.videocarousel .carousel-inner .carousel-item-next,
+.videocarousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  
+
 }
 
