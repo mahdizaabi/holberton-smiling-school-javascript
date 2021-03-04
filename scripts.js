@@ -61,7 +61,7 @@ function joinCards(id){
     }
   });}
 
-    function carouselVideoItem(title, subtitle, author, stars, active, author_pic_url, thumb_url) {
+    function carouselVideoItem(title, subtitle, author, stars, active, author_pic_url, thumb_url, duration) {
       let starImage = '<img src="./images/star_on.png" alt=""/>'
 
       let CxSuper = $(`<div class='carousel-item ${active}'></div>`);
@@ -85,7 +85,7 @@ function joinCards(id){
                 <div class="rating__stars">
                   ${starImage.repeat(stars)}
                 </div>
-                <span class="duration__video">8 min</span>
+                <span class="duration__video">${duration}</span>
               </div>
             </div>
           </div>
@@ -106,10 +106,10 @@ function joinCards(id){
       let x = data.length
       const SecondCarousel = $(".carousel-inner")[1];
       for(let i = 0; i < x; i++){
-        const {title,author, star, author_pic_url, thumb_url} = data[i]
+        const {title,author, star, author_pic_url, thumb_url, duration} = data[i]
         $(SecondCarousel).prepend(function(){
             let active = i === 0 ? "active" : ""
-            return carouselVideoItem(title, data[i].sub-title, author, star, active, author_pic_url, thumb_url)
+            return carouselVideoItem(title, data[i]['sub-title'], author, star, active, author_pic_url, thumb_url, duration)
         });
     }
 
