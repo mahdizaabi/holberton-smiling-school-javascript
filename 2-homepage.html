@@ -93,7 +93,7 @@
       <!-- Testimonials Carousel -->
 
       <section class="bg__purple text-white py-5">
-        <div class="loader"></div>
+        <div class="loader testim"></div>
 
         <div id="smileschoolcarousel" class="carousel slide my-5" data-ride="carousel">
           <div class="carousel-inner d-flex flex-row justify-content-start">
@@ -126,262 +126,38 @@
           </header>
 
           <!--  CAROUSEL FOR LARGE DEVICES -->
-          <div class="videocarousel container-fluide text-center my-3">
-            <div class="row w-100 mx-auto my-auto">
+
+          <div class="videocarousel container-fluide text-center my-3" id="videoCarousel">
+            
+            <div class="row w-75 mx-auto my-auto">
+              
+              <div class="loader mpt"></div>
+
                 <div id="popular_tutorials-lg" class="carousel slide d-none w-100" data-ride="carousel">
-                    <div class="carousel-inner  col-9 mx-auto" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="col-md-3">
-                                <!--CARD NO.1-->
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_4.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Diagonal Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_3.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Sad Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_1.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Natural Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_2.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Happy Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_4.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Diagonal Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_3.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Sad Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                         <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_1.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Natural Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                         <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class=" d-flex align-items-center justify-content-center">
-                                      <img src="./images/thumbnail_2.jpg" alt="Video thumbnail" class="card-img-top" />
-                                      <img src="./images/play.png" alt="Play icon" class="position-absolute play__icon" />
-                                    </div>
-                                    <div class="card-body">
-                                      <h4 class="card-title font-weight-bold text-left">Happy Smile</h4>
-                                      <p class="card-text text-muted text-left">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
-                                        eiusmod.</p>
-                                      <div class="d-flex align-items-center">
-                                        <div class="mr-3">
-                                          <img src="./images/profile_1.jpg" alt="Profile thumbnail" width="30px" class="rounded-circle">
-                                        </div>
-                                        <span class="user__name">Phillip Massey</span>
-                                      </div>
-                                      <div class="d-flex mt-2 justify-content-between">
-                                        <div class="rating__stars">
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_on.png" alt=""/>
-                                          <img src="./images/star_off.png" alt=""/>
-                                        </div>
-                                        <span class="duration__video">8 min</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                    </div>
+                  
+                    <div class="carousel-inner col-9 mx-auto" id="carousel-items" role="listbox">
+                        <!--Carousoul Item 1-->
+                       
+                        
+                        <!--Carousel Item 2 -->
+                        
+                        <!--Carousel item 3-->
+                        
+                        <!--Carousel Item 4-->
+                        
+                        <!--Carousel Item 5-->
+                        
+                        <!--Carousel Item 6-->
+                        
+                        <!--Carousel Item 7-->
+
+                        <!--Carousel Item 8-->
+                        
+                         
                    <!-- Arrow Prev -->
-                  <a class="col carousel-control-prev mt-n5" href="#popular_tutorials-lg"
+                  
+                </div>
+                <a class="col carousel-control-prev mt-n5" href="#popular_tutorials-lg"
                   role="button" data-slide="prev">
                   <img src="./images/arrow_black_left.png" aria-hidden="true">
                   <span class="sr-only">Previous</span>
@@ -392,8 +168,8 @@
                   <img src="./images/arrow_black_right.png" aria-hidden="true">
                   <span class="sr-only">Next</span>
                   </a>
-                </div>
             </div>
+            
         </div>
           
           <!--  CAROUSEL FOR MEDIUM DEVICES -->
